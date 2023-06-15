@@ -1,0 +1,11 @@
+CREATE DATABASE test;
+
+CREATE TABLE Persons (
+    ID int,
+    LasStName varchar(255),
+    FirstName varchar(255),
+    email varchar(255),
+    password varchar(255),
+    birthday date,
+    gender bit(1)	
+);
